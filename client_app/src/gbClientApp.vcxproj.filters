@@ -1,0 +1,3028 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\..">
+      <UniqueIdentifier>{d4327a00-8f2f-4f71-8355-85e1a985ee0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\..\..">
+      <UniqueIdentifier>{b8fc34cb-cb20-42be-b5e2-b76dea5fab1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\..\..\..">
+      <UniqueIdentifier>{1681d92f-f6ba-48f7-847b-1f37bfe29e20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\..\..\..\3rdparty">
+      <UniqueIdentifier>{503e7e9c-156e-4090-a14d-dda05570d9f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\..\..\..\3rdparty\SDK">
+      <UniqueIdentifier>{f62dc545-4d8c-4b64-a90c-de0a8a6040e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\..\..\..\3rdparty\SDK\Concurrent">
+      <UniqueIdentifier>{4d65453e-41d6-4347-ba6b-32143f47df85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\..\..\..\3rdparty\SDK\Crypto">
+      <UniqueIdentifier>{bb1a79ae-0b6a-4c5d-ab20-f147c71055ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\..\..\..\3rdparty\SDK\System">
+      <UniqueIdentifier>{c9ca9940-d88d-4220-bb11-92167a589576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\..\..\..\3rdparty\SDK\Utils">
+      <UniqueIdentifier>{17aebc84-3218-44a0-8fb5-31f6e97b1619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\..\..\..\3rdparty\SDK\WinINet">
+      <UniqueIdentifier>{61ee1d2f-bc82-4cc4-8760-5d8f6ca28c92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\..\..\..\Common">
+      <UniqueIdentifier>{bba71377-6749-40aa-94a0-e034208a9225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\..\..\..\Common\Description">
+      <UniqueIdentifier>{2c705b51-0863-4604-a550-5531d78ba944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\..\..\..\Common\Settings">
+      <UniqueIdentifier>{9a6fd07d-fbfe-435f-a7fd-99d3f3b2b478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\..\..\..\Common\Version">
+      <UniqueIdentifier>{c313d20d-59ce-49ec-8b76-06fcd3826f4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\..\..\..\CommonUi">
+      <UniqueIdentifier>{b80ebd0b-c333-44db-9e99-1db94098adf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\..\..\..\CommonUi\Settings">
+      <UniqueIdentifier>{34518638-5dc1-4398-bf9e-9dedd3eaa921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\..\..\..\CommonUi\Validator">
+      <UniqueIdentifier>{9f18add1-ff4b-4151-88db-aaf68dac4850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\..\..\client_common">
+      <UniqueIdentifier>{917bc2b3-bc5e-4654-931d-570b95aeee37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\..\..\client_common\Data">
+      <UniqueIdentifier>{55b7fed6-9455-4181-84da-eca12b2b616a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\..\..\client_common\Network">
+      <UniqueIdentifier>{03db3a56-5945-4295-bb99-3901b8f2604a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\..\..\client_common\Settings">
+      <UniqueIdentifier>{a211475c-7abf-426d-a52e-8531d61a21d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CommandProc">
+      <UniqueIdentifier>{8041891e-634e-483e-8aee-17128fd2e292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CommandProc\cs2cc">
+      <UniqueIdentifier>{9a791405-c16d-4278-9426-502d74c5196e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CommandProc\s2c">
+      <UniqueIdentifier>{90eac0e6-f8a9-459d-a032-cdecd3543a46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CommandSender">
+      <UniqueIdentifier>{29ac6993-9a1d-412d-8f34-0c0a48b562c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Config">
+      <UniqueIdentifier>{82840b54-89d4-4be8-8e84-be299ec36d08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controllers">
+      <UniqueIdentifier>{c968ba66-2039-4739-9d7a-01ed93656ec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{e87a875d-137a-4fef-95b9-278fd5eacf9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI\Components">
+      <UniqueIdentifier>{b05ea4fb-9622-41ff-922b-267dcd4ee54d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI\Dialogs">
+      <UniqueIdentifier>{59f4c676-8cd7-42f7-b3e8-d032c63e8f4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI\Widgets">
+      <UniqueIdentifier>{1bcaf11c-c68f-4c69-8434-41c1e6f4492f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI\Widgets\QcIPWidget">
+      <UniqueIdentifier>{dd3e9c43-7e6b-46c5-9897-5f5e7cf5b528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Helper">
+      <UniqueIdentifier>{820da37d-9dd7-4583-ba3b-eff26f23700f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models">
+      <UniqueIdentifier>{7cfda21e-5c64-4308-a262-b4bba6e233e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network">
+      <UniqueIdentifier>{f956f2b0-4476-46fa-9814-7f9ec1d5f806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Update">
+      <UniqueIdentifier>{dde9f223-b866-49ef-bb26-50bb5c3ea3c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WebHistory">
+      <UniqueIdentifier>{ea7fd528-8f59-4c8c-aa62-2c511fdced0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\d:">
+      <UniqueIdentifier>{f24485f6-0d34-4632-ad6a-b605e5531822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\d:\Work">
+      <UniqueIdentifier>{f8857f18-b2b5-4f5e-a909-0ac2fca8dbf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\d:\Work\Projects">
+      <UniqueIdentifier>{2e4adda8-40bd-4b94-bbb8-d0ebd7351455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\d:\Work\Projects\GBill">
+      <UniqueIdentifier>{97955650-a737-4fbf-984e-b89af03123f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\d:\Work\Projects\GBill\gbill_shared">
+      <UniqueIdentifier>{84dcc13f-ae5c-4747-a3e0-f5d2865e7e6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_client">
+      <UniqueIdentifier>{b8c84993-c5bb-4114-a576-2e56b9daf434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_client\pbc">
+      <UniqueIdentifier>{dc37b504-44c2-4e3c-9f53-2f89c872ff0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common">
+      <UniqueIdentifier>{7ecada19-cc65-4f37-9594-dddeb2b8fce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc">
+      <UniqueIdentifier>{c1c33385-3b33-43cd-8404-5c16b056872e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\d:\Work\Projects\GBill\gbill_shared\common">
+      <UniqueIdentifier>{71ef275f-f89d-4d18-8a67-80b891eec585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher">
+      <UniqueIdentifier>{4e89df5f-e7b9-4cf8-b6f1-1c0e183e9046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher\crypto">
+      <UniqueIdentifier>{7642f366-0887-450d-b55b-fcecb86c437f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher\server_crypto">
+      <UniqueIdentifier>{0e9ecca4-bf78-4e7c-82e4-0826345105e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\d:\Work\Projects\GBill\gbill_shared\common\Cmd">
+      <UniqueIdentifier>{e4738dd9-e0f8-44b3-a79c-7bcf479c0f10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data">
+      <UniqueIdentifier>{f6cd5346-2dd8-49ab-8bb4-e357a77e5a09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data\ss2cs">
+      <UniqueIdentifier>{0fb295fe-3ec1-45f6-8879-f7037a5d81d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\d:\Work\Projects\GBill\gbill_shared\common\Helper">
+      <UniqueIdentifier>{5286a613-ab0f-4ba3-82de-fecef948e3bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\d:\Work\Projects\GBill\gbill_shared\common\TxtLoader">
+      <UniqueIdentifier>{804849a1-58e5-47cc-a81d-38bbf501e5a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\d:\Work\Projects\GBill\gbill_shared\common\mySqlUtil">
+      <UniqueIdentifier>{04819d5a-c6d3-4ed7-9af3-1dae4b5c65d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\d:\Work\Projects\GBill\gbill_shared\common\settings">
+      <UniqueIdentifier>{9e066ee2-15cd-4f6e-8d06-4938f3d212f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\d:\Work\Projects\GBill\gbill_shared\common\utils">
+      <UniqueIdentifier>{c8bac01c-22d4-4639-a97e-99fb27be087d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\..">
+      <UniqueIdentifier>{02689257-fa80-4d7e-b115-2ef449e8ff9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\..\..">
+      <UniqueIdentifier>{7b79d066-f9a2-4e95-ba1f-ba58a5c9a0d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\..\..\..">
+      <UniqueIdentifier>{fc4bcb05-6ed0-435e-befb-3e9b66368b3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\..\..\..\3rdparty">
+      <UniqueIdentifier>{32c9ba73-cf82-4ce0-b20e-715056d3b004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\..\..\..\3rdparty\SDK">
+      <UniqueIdentifier>{ea9d3f5e-dd14-43b8-aabd-e202af942b81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\..\..\..\3rdparty\SDK\Common">
+      <UniqueIdentifier>{3be53877-24b0-4db9-8f3a-d7287418aecb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\..\..\..\3rdparty\SDK\Concurrent">
+      <UniqueIdentifier>{58ec1676-5e83-44f9-af8e-0506aeff7fc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\..\..\..\3rdparty\SDK\Crypto">
+      <UniqueIdentifier>{fa582915-9b6d-4a31-b767-c4520ad919df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\..\..\..\3rdparty\SDK\Sigslot">
+      <UniqueIdentifier>{c88c0f54-be7c-41d3-bc95-84fd85bd7b9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\..\..\..\3rdparty\SDK\SmartPtr">
+      <UniqueIdentifier>{c0a14c14-a483-4f7b-be62-7d1e6f5e4b63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\..\..\..\3rdparty\SDK\System">
+      <UniqueIdentifier>{6eef26f7-a4f8-4407-b4ad-d8f7979a4e17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\..\..\..\3rdparty\SDK\Utils">
+      <UniqueIdentifier>{78473e07-b033-4515-86a3-185113c26891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\..\..\..\3rdparty\SDK\WinINet">
+      <UniqueIdentifier>{d6703cfc-9469-42bd-af11-e4b8fdec3900}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\..\..\..\3rdparty\SDK\XML">
+      <UniqueIdentifier>{3e8f45f3-f9c1-4ef8-ad98-db77dcac9052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\..\..\..\3rdparty\SDK\XML\rapidxml">
+      <UniqueIdentifier>{c1e20182-dffa-4807-b259-258b66b5effe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\..\..\..\Common">
+      <UniqueIdentifier>{e1ae1e0e-f21d-47bd-a456-7e5ee7b9eb15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\..\..\..\Common\Cmd">
+      <UniqueIdentifier>{21ef1df6-18eb-4f11-b059-2552f405ef4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\..\..\..\Common\Description">
+      <UniqueIdentifier>{73343c15-1baf-4b51-8030-52c40720c55e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\..\..\..\Common\Settings">
+      <UniqueIdentifier>{4ced9cf5-91da-4401-8b23-2507cd1b85fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\..\..\..\Common\Version">
+      <UniqueIdentifier>{c8d8c3f0-542a-4432-a5bf-e50a42a8b35a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\..\..\..\CommonUi">
+      <UniqueIdentifier>{036191ef-fc0b-4937-a2f9-306a399cd42d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\..\..\..\CommonUi\Settings">
+      <UniqueIdentifier>{86e94758-0b62-4b57-8cc9-f6ee8abbbb7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\..\..\..\CommonUi\Validator">
+      <UniqueIdentifier>{f839c934-eae2-48c1-b822-92525db00878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\..\..\client_common">
+      <UniqueIdentifier>{eb1c6034-31f3-449a-b615-4a6589ff281d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\..\..\client_common\ClientEvent">
+      <UniqueIdentifier>{f53c616f-a827-4d26-9565-5f069dd21520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\..\..\client_common\Data">
+      <UniqueIdentifier>{f423b05c-9521-4082-95f0-8cf00b42b092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\..\..\client_common\Network">
+      <UniqueIdentifier>{e259896f-59b3-4b32-9f64-421aec2c2ed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\..\..\client_common\Settings">
+      <UniqueIdentifier>{48e269f6-3984-4285-8364-c641ed4d0b6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CommandProc">
+      <UniqueIdentifier>{5cc278e9-e4df-4915-9067-350f810dc849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CommandProc\cs2cc">
+      <UniqueIdentifier>{57fe27d7-e2aa-43dd-8955-a2284e394aa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CommandProc\s2c">
+      <UniqueIdentifier>{2b5a40f6-2bd9-490b-b53a-608e5ab315f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CommandSender">
+      <UniqueIdentifier>{f5c45192-f217-476d-9d89-28ed074cf95f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Config">
+      <UniqueIdentifier>{93259dcb-2a12-450e-9d5e-5457042933f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Controllers">
+      <UniqueIdentifier>{ff1e472a-08bd-4576-9c68-43fb494f1d6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CrashHandler">
+      <UniqueIdentifier>{56d7588e-d452-492d-a4be-901e6133f8e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{ea925bbf-443a-4c13-8de2-d34bf1d539ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI\Components">
+      <UniqueIdentifier>{834dd15c-4d9b-46ef-9cb3-6cc0e0d93ea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI\Dialogs">
+      <UniqueIdentifier>{c2afa67b-2ec4-4139-add8-7ba3473bffc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI\Widgets">
+      <UniqueIdentifier>{cfdd7dde-c164-4f88-8824-d77b13059f30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI\Widgets\QcIPWidget">
+      <UniqueIdentifier>{4221566a-add0-4c52-9576-3e744ea982f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helper">
+      <UniqueIdentifier>{8b9389e7-3b07-480a-ad93-442b7072453c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Models">
+      <UniqueIdentifier>{d59e8ca3-646c-49b8-abe0-8c963794a921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Network">
+      <UniqueIdentifier>{6410c606-adc1-4237-bf42-ef905ae9967b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Update">
+      <UniqueIdentifier>{216e5ffa-dd14-4851-9a6d-f5bc36bd74f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WebHistory">
+      <UniqueIdentifier>{762b8cf6-81b3-4ad4-88b2-b046881d4f4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\d:">
+      <UniqueIdentifier>{9c1c9d22-9cf3-4309-8234-557d69d36f5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\d:\Work">
+      <UniqueIdentifier>{974abddc-b679-4842-8821-6c80da673a4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\d:\Work\Projects">
+      <UniqueIdentifier>{950a8aa2-054b-4a0b-aa6f-08f1bd55cf2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\d:\Work\Projects\GBill">
+      <UniqueIdentifier>{b513a4fb-d19a-4f7d-9a11-99afcc2d09c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\d:\Work\Projects\GBill\gbill_shared">
+      <UniqueIdentifier>{eb77664c-d8a6-4d67-bb4e-798d2ae625f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_client">
+      <UniqueIdentifier>{a8c0308a-ec60-44de-8ab4-9082564ebe34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_client\pbc">
+      <UniqueIdentifier>{080cc312-c702-42a2-9195-442618c18384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common">
+      <UniqueIdentifier>{2efe5fce-b7d3-4e3b-a2a5-cf82cb9ce298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc">
+      <UniqueIdentifier>{a1fa04b8-2c4a-41b5-b299-b54ffff908cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\d:\Work\Projects\GBill\gbill_shared\common">
+      <UniqueIdentifier>{448fd996-4a17-46a3-9144-e102f81f0cb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher">
+      <UniqueIdentifier>{90949906-6c12-44eb-bcae-5c305d608805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher\crypto">
+      <UniqueIdentifier>{383f97b0-b325-48ee-aaea-7a27f8ffd3e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher\server_crypto">
+      <UniqueIdentifier>{799b1a72-4c1c-4c14-90d0-2f7ffb879064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\d:\Work\Projects\GBill\gbill_shared\common\Cmd">
+      <UniqueIdentifier>{c3443e57-f3cc-4791-ae7e-577d63c951ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data">
+      <UniqueIdentifier>{228d9eb3-9a2e-4ddb-ac4d-d4b0e7106413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data\ss2cs">
+      <UniqueIdentifier>{676c6514-9093-4a7a-b65e-3f64911c87a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\d:\Work\Projects\GBill\gbill_shared\common\Helper">
+      <UniqueIdentifier>{fe27ab31-4116-4d27-99a4-d63f5df66306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\d:\Work\Projects\GBill\gbill_shared\common\Logger">
+      <UniqueIdentifier>{5a112c1d-699f-4083-a80d-9f23e9f2dd4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\d:\Work\Projects\GBill\gbill_shared\common\TxtLoader">
+      <UniqueIdentifier>{0d73e51f-c601-4332-ada1-fe00c6f65be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\d:\Work\Projects\GBill\gbill_shared\common\mySqlUtil">
+      <UniqueIdentifier>{ef0e9657-0d66-4c4e-bc1b-29e36f12d2eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\d:\Work\Projects\GBill\gbill_shared\common\settings">
+      <UniqueIdentifier>{56099b82-a13f-42a3-ba32-0543b89736cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\d:\Work\Projects\GBill\gbill_shared\common\utils">
+      <UniqueIdentifier>{4e363f4a-9d31-419e-a191-2433a4b403ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files\..">
+      <UniqueIdentifier>{9d48b1af-b601-4a2d-81ec-0c772bd15310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\..\bin">
+      <UniqueIdentifier>{b2443b8d-2291-4d56-a436-cdab913ad21b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\..\bin\intermediate">
+      <UniqueIdentifier>{30ed9a03-383b-4d82-9315-6b1998e6045b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\..\bin\intermediate\Debug">
+      <UniqueIdentifier>{faada1e6-dca5-4cff-865d-4c09d165ca1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\..\bin\intermediate\Debug\.moc">
+      <UniqueIdentifier>{dee1855a-0c9e-4e63-8e77-9127ecf2298f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\..\bin\intermediate\Debug\.obj">
+      <UniqueIdentifier>{38413708-7650-4f8b-9b7c-ae984a3d686f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\..\bin\intermediate\Debug\.rcc">
+      <UniqueIdentifier>{4ab99377-2ebe-469e-bbf2-227dde659dff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\..\bin\intermediate\Release">
+      <UniqueIdentifier>{db5196f6-9f99-49a9-a3b6-c969679aed60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\..\bin\intermediate\Release\.moc">
+      <UniqueIdentifier>{416cb2fb-0efb-49c3-a1b3-2eea1294d25e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\..\bin\intermediate\Release\.obj">
+      <UniqueIdentifier>{1c236212-d46e-4d12-bac8-a4f82888a5a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\..\bin\intermediate\Release\.rcc">
+      <UniqueIdentifier>{a3df89fe-62ba-4337-923f-77ffd8532e0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\GUI">
+      <UniqueIdentifier>{e15a80e2-8516-4537-b3dd-d160510db6a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\GUI\uic">
+      <UniqueIdentifier>{acb12c88-cbb7-4df8-91a4-745ac87ba690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\GUI\uic\include">
+      <UniqueIdentifier>{ef128c04-1607-4e46-8343-4f7f551f4dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts;xlf</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Translation Files\tr">
+      <UniqueIdentifier>{ec102d0b-5701-4105-a635-f323d7116c7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Translation Files\tr\clientApp">
+      <UniqueIdentifier>{592ba1fc-9110-43b3-8a1e-7288188a4969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files\GUI">
+      <UniqueIdentifier>{8be61eb5-3b89-4923-bee1-175944c7bd97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\GUI\Widgets">
+      <UniqueIdentifier>{5e2950eb-3012-468d-9e8d-28156fbc5ccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\GUI\Widgets\QcIPWidget">
+      <UniqueIdentifier>{e2d6e213-e0e9-423d-b8fc-7e158578b37a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\GUI\uiDialogs">
+      <UniqueIdentifier>{0f3b0999-03fc-4b76-b64e-742f0332fe8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files\Resource">
+      <UniqueIdentifier>{510df96d-9e0a-4193-83be-a782b30c3872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Resource\ad">
+      <UniqueIdentifier>{88e2b8e8-807f-4d6e-b52d-e1af99112cf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Resource\css">
+      <UniqueIdentifier>{60ea4529-bf6a-49cf-a215-5b1ed798d77f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Resource\extra">
+      <UniqueIdentifier>{b775d774-2143-450c-87c1-0b661b07e638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Resource\icons">
+      <UniqueIdentifier>{20df0ef7-7793-45b6-a632-4fda30723829}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Resource\icons\Common">
+      <UniqueIdentifier>{b53a0490-b584-4b9f-924c-49d0a60d8539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Resource\icons\LockSettingDialog">
+      <UniqueIdentifier>{c6b7dee9-055f-48ba-9353-99ec64c1b93d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Resource\icons\MiniWindow">
+      <UniqueIdentifier>{258c583e-00d1-4ce0-a51c-31359a7c8805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Resource\icons\TempLockDialog">
+      <UniqueIdentifier>{9afe380b-b2df-481c-8630-e66493e5a662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Resource\regionalSettings">
+      <UniqueIdentifier>{261efc43-dc8c-4fb4-9054-81c8658ea7b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Resource\styles">
+      <UniqueIdentifier>{9ed2e87e-c0ef-40d4-ac42-c046b1a1a36b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Resource\styles\Button">
+      <UniqueIdentifier>{3597793e-bf33-4a5c-b4b2-77e0bdf6935f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Resource\styles\CheckBox">
+      <UniqueIdentifier>{10484805-2367-4165-85bf-01d3e2250133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Resource\styles\ComboBox">
+      <UniqueIdentifier>{32e03102-7f08-4a02-aaca-378a02da544c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Resource\styles\LineEdit">
+      <UniqueIdentifier>{538d5728-954e-4c95-b047-717398195d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Resource\styles\RadioButton">
+      <UniqueIdentifier>{f88c2358-af6d-4816-955e-f11660445a88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Resource\styles\RibbonButton">
+      <UniqueIdentifier>{4cafe4ef-2b5a-46a0-b8c4-d5c465f47fd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Resource\styles\SpinBox">
+      <UniqueIdentifier>{75d649b9-a8fd-44f0-84a4-50b17f748f95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{41ca551f-470f-46b9-85d3-ad5f4600280e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\3rdparty\SDK\Concurrent\AutoCriticalSection.cpp">
+      <Filter>Source Files\..\..\..\3rdparty\SDK\Concurrent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rdparty\SDK\Concurrent\CriticalSection.cpp">
+      <Filter>Source Files\..\..\..\3rdparty\SDK\Concurrent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rdparty\SDK\Crypto\XOREncrypt.c">
+      <Filter>Source Files\..\..\..\3rdparty\SDK\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rdparty\SDK\Crypto\XOREncryptHelper.cpp">
+      <Filter>Source Files\..\..\..\3rdparty\SDK\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rdparty\SDK\System\FileUtils.cpp">
+      <Filter>Source Files\..\..\..\3rdparty\SDK\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rdparty\SDK\System\FileVersion.cpp">
+      <Filter>Source Files\..\..\..\3rdparty\SDK\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rdparty\SDK\System\FolderUtils.cpp">
+      <Filter>Source Files\..\..\..\3rdparty\SDK\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rdparty\SDK\System\ModuleUtils.cpp">
+      <Filter>Source Files\..\..\..\3rdparty\SDK\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rdparty\SDK\System\NetworkUtils.cpp">
+      <Filter>Source Files\..\..\..\3rdparty\SDK\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rdparty\SDK\System\PlatformUtils.cpp">
+      <Filter>Source Files\..\..\..\3rdparty\SDK\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rdparty\SDK\System\ProcessUtils.cpp">
+      <Filter>Source Files\..\..\..\3rdparty\SDK\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rdparty\SDK\Utils\CharSet.cpp">
+      <Filter>Source Files\..\..\..\3rdparty\SDK\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rdparty\SDK\WinINet\WinINetHelper.cpp">
+      <Filter>Source Files\..\..\..\3rdparty\SDK\WinINet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Description\Description.cpp">
+      <Filter>Source Files\..\..\..\Common\Description</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Settings\RegionConsts.cpp">
+      <Filter>Source Files\..\..\..\Common\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Settings\RegionalSettings.cpp">
+      <Filter>Source Files\..\..\..\Common\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Common\Version\Version.cpp">
+      <Filter>Source Files\..\..\..\Common\Version</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CommonUi\Settings\RegexpSettings.cpp">
+      <Filter>Source Files\..\..\..\CommonUi\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CommonUi\Validator\GMoneyValidator.cpp">
+      <Filter>Source Files\..\..\..\CommonUi\Validator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CommonUi\Validator\GUpperCaseValidator.cpp">
+      <Filter>Source Files\..\..\..\CommonUi\Validator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\client_common\Data\AdminOptionQtModelC.cpp">
+      <Filter>Source Files\..\..\client_common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\client_common\Data\CCHandshakeQtModel.cpp">
+      <Filter>Source Files\..\..\client_common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\client_common\Data\CLHandshakeQtModel.cpp">
+      <Filter>Source Files\..\..\client_common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\client_common\Data\NetworkStateQtModel.cpp">
+      <Filter>Source Files\..\..\client_common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\client_common\Data\ScreenLockQtModel.cpp">
+      <Filter>Source Files\..\..\client_common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\client_common\Network\ClientNetworkSettings.cpp">
+      <Filter>Source Files\..\..\client_common\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\client_common\Settings\ClientCommonSettings.cpp">
+      <Filter>Source Files\..\..\client_common\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandProc\cs2cc\AdminOptionReplyProcessorC.cpp">
+      <Filter>Source Files\CommandProc\cs2cc</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandProc\cs2cc\CCHandshakeAckProcessorC.cpp">
+      <Filter>Source Files\CommandProc\cs2cc</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandProc\cs2cc\CCHeartbeatReplyProcessorC.cpp">
+      <Filter>Source Files\CommandProc\cs2cc</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandProc\cs2cc\ClientCodeDllUpdatedProcessorC.cpp">
+      <Filter>Source Files\CommandProc\cs2cc</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandProc\cs2cc\NetworkStateReplyProcessorC.cpp">
+      <Filter>Source Files\CommandProc\cs2cc</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandProc\cs2cc\ScreenLockReplyProcessorC.cpp">
+      <Filter>Source Files\CommandProc\cs2cc</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandProc\cs2cc\ScreenUnlockReplyProcessorC.cpp">
+      <Filter>Source Files\CommandProc\cs2cc</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandProc\s2c\AppControlReplyProcessor.cpp">
+      <Filter>Source Files\CommandProc\s2c</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandProc\s2c\ChangePwdReplyProcessor.cpp">
+      <Filter>Source Files\CommandProc\s2c</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandProc\s2c\ClientAdTransferReplyProcessor.cpp">
+      <Filter>Source Files\CommandProc\s2c</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandProc\s2c\ClientSettingReplyProcessor.cpp">
+      <Filter>Source Files\CommandProc\s2c</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandProc\s2c\ClientWallpaperTransferReplyProcessor.cpp">
+      <Filter>Source Files\CommandProc\s2c</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandProc\s2c\PcActionRequestProcessor.cpp">
+      <Filter>Source Files\CommandProc\s2c</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandProc\s2c\ProductReplyProcessor.cpp">
+      <Filter>Source Files\CommandProc\s2c</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandProc\s2c\QueryAppRequestProcessor.cpp">
+      <Filter>Source Files\CommandProc\s2c</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandProc\s2c\ScreenshotRequestProcessor.cpp">
+      <Filter>Source Files\CommandProc\s2c</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandProc\s2c\SecurityProfileReplyProcessor.cpp">
+      <Filter>Source Files\CommandProc\s2c</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandProc\s2c\SessionBeginProcessor.cpp">
+      <Filter>Source Files\CommandProc\s2c</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandProc\s2c\SessionEndProcessor.cpp">
+      <Filter>Source Files\CommandProc\s2c</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandProc\s2c\SessionStatusProcessor.cpp">
+      <Filter>Source Files\CommandProc\s2c</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandProc\s2c\SystemMessageProcessor.cpp">
+      <Filter>Source Files\CommandProc\s2c</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandProc\s2c\TerminateAppRequestProcessor.cpp">
+      <Filter>Source Files\CommandProc\s2c</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandProc\s2c\TextMessageReplyProcessor.cpp">
+      <Filter>Source Files\CommandProc\s2c</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandProc\s2c\TopupByCouponReplyProcessor.cpp">
+      <Filter>Source Files\CommandProc\s2c</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandProc\s2c\UpdateClientRequestProcessor.cpp">
+      <Filter>Source Files\CommandProc\s2c</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandProc\s2c\UserLoginReplyProcessor.cpp">
+      <Filter>Source Files\CommandProc\s2c</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandProc\s2c\UserLogoutReplyProcessor.cpp">
+      <Filter>Source Files\CommandProc\s2c</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandProc\s2c\UserUpdateProcessor.cpp">
+      <Filter>Source Files\CommandProc\s2c</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandProc\cs2ccCmdProcs.cpp">
+      <Filter>Source Files\CommandProc</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandSender\cc2csSender.cpp">
+      <Filter>Source Files\CommandSender</Filter>
+    </ClCompile>
+    <ClCompile Include="Config\ClientAppSettings.cpp">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Config\ConfigManager.cpp">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\AdminOptionManager.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\AppControlManager.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\ClientAdManager.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\ClientEventManager.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\ClientSettingManager.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\ClientWallpaperManager.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\HeartbeatSender.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\OrderManager.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\ProductManager.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\SecurityProfileManager.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\SessionManager.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\SystemManager.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\TextMessageManager.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\UpdateManager.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\UserAccountManager.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\WorkThreadManager.cpp">
+      <Filter>Source Files\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Components\SystemTray.cpp">
+      <Filter>Source Files\GUI\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Dialogs\AdminOptionDialog.cpp">
+      <Filter>Source Files\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Dialogs\ChangePwdDialog.cpp">
+      <Filter>Source Files\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Dialogs\LockOutSettingDialog.cpp">
+      <Filter>Source Files\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Dialogs\MiniDialog.cpp">
+      <Filter>Source Files\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Dialogs\OrderDialog.cpp">
+      <Filter>Source Files\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Dialogs\OrderHistoryDialog.cpp">
+      <Filter>Source Files\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Dialogs\TextMessageDialog.cpp">
+      <Filter>Source Files\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Dialogs\TopupByCouponDialog.cpp">
+      <Filter>Source Files\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Widgets\QcIPWidget\QcIPSectorWidget.cpp">
+      <Filter>Source Files\GUI\Widgets\QcIPWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Widgets\QcIPWidget\QcIPWidget.cpp">
+      <Filter>Source Files\GUI\Widgets\QcIPWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Widgets\GClickableLabel.cpp">
+      <Filter>Source Files\GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Widgets\GPlainTextEdit.cpp">
+      <Filter>Source Files\GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Widgets\GSkinDialog.cpp">
+      <Filter>Source Files\GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Widgets\GSkinMainWindow.cpp">
+      <Filter>Source Files\GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Widgets\QSkinMainWindow.cpp">
+      <Filter>Source Files\GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Widgets\QSkinWidget.cpp">
+      <Filter>Source Files\GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Widgets\QWidgetResizeHandler_p.cpp">
+      <Filter>Source Files\GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Widgets\QcRibbonPushButton.cpp">
+      <Filter>Source Files\GUI\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\CssLoader.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\GuiController.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\LogManager.cpp">
+      <Filter>Source Files\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\OSAgentWin.cpp">
+      <Filter>Source Files\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\OSAgentWinQt.cpp">
+      <Filter>Source Files\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\PathManager.cpp">
+      <Filter>Source Files\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\RestartExplorerHelper.cpp">
+      <Filter>Source Files\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\SafeTermProc.cpp">
+      <Filter>Source Files\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\SoundManager.cpp">
+      <Filter>Source Files\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\TimerTaskManager.cpp">
+      <Filter>Source Files\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\WallpaperSetter.cpp">
+      <Filter>Source Files\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\ApplicationProhibition.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\Client.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\Product.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\SecurityProfile.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\Session.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\UserAccount.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\cc2csNetworkManager.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\cc2csSocketManager.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Update\HttpDownloader.cpp">
+      <Filter>Source Files\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="Update\LocalUpdateConfig.cpp">
+      <Filter>Source Files\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="Update\UpdateChecker.cpp">
+      <Filter>Source Files\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="WebHistory\ChromeHistoryHelper.cpp">
+      <Filter>Source Files\WebHistory</Filter>
+    </ClCompile>
+    <ClCompile Include="WebHistory\FirefoxHistoryHelper.cpp">
+      <Filter>Source Files\WebHistory</Filter>
+    </ClCompile>
+    <ClCompile Include="WebHistory\IEHistoryHelper.cpp">
+      <Filter>Source Files\WebHistory</Filter>
+    </ClCompile>
+    <ClCompile Include="WebHistory\WebHistoryManager.cpp">
+      <Filter>Source Files\WebHistory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_client\pbc\AdminOptionPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_client\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_client\pbc\CCHandshakePack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_client\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_client\pbc\CLClientStatusPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_client\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_client\pbc\CLHandshakePack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_client\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_client\pbc\LanguageUpdatePack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_client\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_client\pbc\NetworkStatePack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_client\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_client\pbc\ScreenLockPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_client\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\AdminCodePack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\ApplicationProhibitionPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\CafeInfoPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\CaptureScreenPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\ChangePwdPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\ClientAdTransferPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\ClientCodeDllUpdatedPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\ClientCodeTransferPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\ClientConnectionPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\ClientInformationPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\ClientLockPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\ClientSettingNewPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\ClientSettingPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\ClientUIConfigPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\ClientWallpaperTransferPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\FlashTransferPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\GcaAuthPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\GcaProductPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\HandshakePack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\HeartBeatPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\LockPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\OfflineSessionItemPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\OfflineSessionPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\OrderPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\PCActionPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\ProductPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\QueryAppPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\ScreenLockServerPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\ScreenUnlockServerPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\SecurityProfilePack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\SessionPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\SessionStatusPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\SystemMessagePack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\TextMessagePack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\TopupByCouponPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\UnlockPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\UpdateClientPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\UserAuthPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\UserGroupUpdatePack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\UserLoginPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\UserLogoutDonePack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\UserLogoutPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\UserUpdatePack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\WebControlPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\WebHistoryPack.pb.cc">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cipher\crypto\XOREncrypt.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cipher\crypto\XOREncryptHelper.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cipher\crypto\XTEA.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cipher\server_crypto\Crypt.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher\server_crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cipher\server_crypto\ServerXTEA.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher\server_crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cipher\server_crypto\base64.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher\server_crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cipher\CentralServerStdXteaCipher.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cipher\QFastHash.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cipher\QFileCipher.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cipher\QSHA2Cipher.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cipher\QXteaCipher.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cipher\Qcrc32.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cipher\SHA2.c">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cmd\CommandPkt.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cmd\CommandsRouter.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Cmd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\ss2cs\SessionBeginQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data\ss2cs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\ss2cs\SessionEndQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data\ss2cs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\ss2cs\SessionStatusQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data\ss2cs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\AdminCodeQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\AppControlQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\CafeInfoQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\ChangeAccPwdQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\ClientAdTransferQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\ClientCodeDllUpdatedQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\ClientCodeTransferQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\ClientConnectionQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\ClientInformationQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\ClientLockQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\ClientUIConfigQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\ClientWallpaperTransferQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\FlashTransferQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\GcaAuthQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\GcaProductQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\HandshakeQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\HeartBeatQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\OfflineSessionQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\OrderQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\PcActionQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\ProductQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\QueryTermAppQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\ScreenLockFromServerQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\ScreenUnlockFromServerQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\ScreencaptureQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\SecurityProfileQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\SystemMessageQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\SystemSettingNewQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\SystemSettingQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\TextMessageQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\TopupByCouponQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\UpdateClientQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\UserLoginQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\UserLogoutQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\UserUpdateQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\WebControlQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\WebHistoryQtModel.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Helper\QtTypePtrs.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Helper\StdTypes.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Helper\SysInfoHelper.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\TxtLoader\TxtLoader.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\TxtLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\mySqlUtil\MySqlOldPwd.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\mySqlUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\mySqlUtil\MySqlPwd4_1.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\mySqlUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\settings\CommonSettings.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\settings\NetworkSettings.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\settings\NetworkStatus.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\settings\PlatformConsts.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\settings\SecuritySettings.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\settings\SessionStatus.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\settings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\utils\DateTimeUtils.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\utils\GFileUtils.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\utils\StringUtils.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\utils\Utils.cpp">
+      <Filter>Source Files\d:\Work\Projects\GBill\gbill_shared\common\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_AdminOptionDialog.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_AdminOptionManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_AdminOptionReplyProcessorC.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_AppControlManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_AppControlReplyProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_CCHandshakeAckProcessorC.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_CCHeartbeatReplyProcessorC.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_ChangePwdDialog.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_ChangePwdReplyProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_ChromeHistoryHelper.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_Client.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_ClientAdManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_ClientAdTransferReplyProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_ClientCodeDllUpdatedProcessorC.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_ClientEventManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_ClientSettingManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_ClientSettingReplyProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_ClientWallpaperManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_ClientWallpaperTransferReplyProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_FirefoxHistoryHelper.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_GClickableLabel.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_GMoneyValidator.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_GPlainTextEdit.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_GSkinDialog.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_GSkinMainWindow.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_GUpperCaseValidator.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_GuiController.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_HeartbeatSender.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_IEHistoryHelper.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_LockOutSettingDialog.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_LogManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_MiniDialog.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_MySqlOldPwd.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_NetworkStateReplyProcessorC.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_OrderDialog.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_PcActionRequestProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_Product.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_ProductManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_ProductReplyProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_QSkinMainWindow.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_QSkinWidget.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_QWidgetResizeHandler_p.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_QcIPSectorWidget.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_QcIPWidget.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_QueryAppRequestProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_RestartExplorerHelper.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_ScreenLockReplyProcessorC.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_ScreenUnlockReplyProcessorC.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_ScreenshotRequestProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_SecurityProfile.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_SecurityProfileManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_SecurityProfileReplyProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_SessionBeginProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_SessionEndProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_SessionManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_SessionStatusProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_SoundManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_SystemManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_SystemMessageProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_SystemTray.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_TerminateAppRequestProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_TextMessageDialog.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_TextMessageManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_TextMessageReplyProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_TimerTaskManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_TopupByCouponDialog.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_TopupByCouponReplyProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_UpdateClientRequestProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_UpdateManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_UserAccountManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_UserLoginReplyProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_UserLogoutReplyProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_UserUpdateProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_WebHistoryManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_WorkThreadManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_cc2csNetworkManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.moc\moc_cc2csSocketManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Debug\.rcc\qrc_clientApp.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.rcc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_AdminOptionDialog.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_AdminOptionManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_AdminOptionReplyProcessorC.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_AppControlManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_AppControlReplyProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_CCHandshakeAckProcessorC.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_CCHeartbeatReplyProcessorC.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_ChangePwdDialog.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_ChangePwdReplyProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_ChromeHistoryHelper.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_Client.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_ClientAdManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_ClientAdTransferReplyProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_ClientCodeDllUpdatedProcessorC.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_ClientEventManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_ClientSettingManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_ClientSettingReplyProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_ClientWallpaperManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_ClientWallpaperTransferReplyProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_FirefoxHistoryHelper.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_GClickableLabel.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_GMoneyValidator.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_GPlainTextEdit.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_GSkinDialog.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_GSkinMainWindow.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_GUpperCaseValidator.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_GuiController.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_HeartbeatSender.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_IEHistoryHelper.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_LockOutSettingDialog.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_LogManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_MiniDialog.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_MySqlOldPwd.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_NetworkStateReplyProcessorC.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_OrderDialog.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_PcActionRequestProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_Product.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_ProductManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_ProductReplyProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_QSkinMainWindow.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_QSkinWidget.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_QWidgetResizeHandler_p.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_QcIPSectorWidget.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_QcIPWidget.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_QueryAppRequestProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_RestartExplorerHelper.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_ScreenLockReplyProcessorC.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_ScreenUnlockReplyProcessorC.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_ScreenshotRequestProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_SecurityProfile.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_SecurityProfileManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_SecurityProfileReplyProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_SessionBeginProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_SessionEndProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_SessionManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_SessionStatusProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_SoundManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_SystemManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_SystemMessageProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_SystemTray.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_TerminateAppRequestProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_TextMessageDialog.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_TextMessageManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_TextMessageReplyProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_TimerTaskManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_TopupByCouponDialog.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_TopupByCouponReplyProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_UpdateClientRequestProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_UpdateManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_UserAccountManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_UserLoginReplyProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_UserLogoutReplyProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_UserUpdateProcessor.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_WebHistoryManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_WorkThreadManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_cc2csNetworkManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.moc\moc_cc2csSocketManager.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.moc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bin\intermediate\Release\.rcc\qrc_clientApp.cpp">
+      <Filter>Generated Files\..\bin\intermediate\Release\.rcc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\3rdparty\SDK\Common\BasicTypes.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\Common\ConstructorMagic.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\Common\Singleton.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\Common\Singleton_T.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\Concurrent\AutoCriticalSection.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\Concurrent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\Concurrent\CriticalSection.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\Concurrent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\Crypto\XOREncrypt.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\Crypto\XOREncryptHelper.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\Sigslot\sigslot.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\Sigslot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\SmartPtr\scoped_ptr.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\SmartPtr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\System\FileUtils.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\System\FileVersion.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\System\FolderUtils.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\System\ModuleUtils.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\System\NetworkUtils.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\System\PlatformUtils.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\System\ProcessUtils.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\Utils\CharSet.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\WinINet\FtpConnection.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\WinINet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\WinINet\FtpFile.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\WinINet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\WinINet\FtpFindFile.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\WinINet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\WinINet\HttpConnection.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\WinINet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\WinINet\HttpFile.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\WinINet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\WinINet\HttpsFile.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\WinINet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\WinINet\InternetConnection.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\WinINet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\WinINet\InternetFile.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\WinINet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\WinINet\InternetFindFile.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\WinINet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\WinINet\InternetHandle.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\WinINet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\WinINet\InternetSession.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\WinINet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\WinINet\WinINetHelper.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\WinINet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\XML\rapidxml\rapidxml.hpp">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\XML\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\XML\rapidxml\rapidxml_iterators.hpp">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\XML\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\XML\rapidxml\rapidxml_print.hpp">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\XML\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\XML\rapidxml\rapidxml_utils.hpp">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\XML\rapidxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\XML\XMLAutoOpenFile.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\XML\XMLAutoOpenMem.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\XML\XMLAutoSaveFile.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\XML\XMLAutoSaveMem.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\XML\XMLHelper.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\3rdparty\SDK\XML\XMLSerializer.h">
+      <Filter>Header Files\..\..\..\3rdparty\SDK\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Cmd\CmdSettings.h">
+      <Filter>Header Files\..\..\..\Common\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Description\Description.h">
+      <Filter>Header Files\..\..\..\Common\Description</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Settings\RegionConsts.h">
+      <Filter>Header Files\..\..\..\Common\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Settings\RegionalSettings.h">
+      <Filter>Header Files\..\..\..\Common\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Common\Version\Version.h">
+      <Filter>Header Files\..\..\..\Common\Version</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CommonUi\Settings\RegexpSettings.h">
+      <Filter>Header Files\..\..\..\CommonUi\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\client_common\ClientEvent\ClientEventLoader.h">
+      <Filter>Header Files\..\..\client_common\ClientEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\client_common\ClientEvent\IClientEvent.h">
+      <Filter>Header Files\..\..\client_common\ClientEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\client_common\Data\AdminOptionQtModelC.h">
+      <Filter>Header Files\..\..\client_common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\client_common\Data\CCHandshakeQtModel.h">
+      <Filter>Header Files\..\..\client_common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\client_common\Data\CLHandshakeQtModel.h">
+      <Filter>Header Files\..\..\client_common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\client_common\Data\NetworkStateQtModel.h">
+      <Filter>Header Files\..\..\client_common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\client_common\Data\ScreenLockQtModel.h">
+      <Filter>Header Files\..\..\client_common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\client_common\Network\ClientNetworkSettings.h">
+      <Filter>Header Files\..\..\client_common\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\client_common\Settings\ClientCommonSettings.h">
+      <Filter>Header Files\..\..\client_common\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandProc\cs2ccCmdProcs.h">
+      <Filter>Header Files\CommandProc</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandSender\cc2csCmds.h">
+      <Filter>Header Files\CommandSender</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandSender\cc2csSender.h">
+      <Filter>Header Files\CommandSender</Filter>
+    </ClInclude>
+    <ClInclude Include="Config\ClientAppSettings.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Config\ConfigManager.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\OrderManager.h">
+      <Filter>Header Files\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="CrashHandler\crashrpt.h">
+      <Filter>Header Files\CrashHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Dialogs\OrderHistoryDialog.h">
+      <Filter>Header Files\GUI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Widgets\QcIPWidget\ConstConfig.h">
+      <Filter>Header Files\GUI\Widgets\QcIPWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Widgets\QcRibbonPushButton.h">
+      <Filter>Header Files\GUI\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\CssLoader.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\OSAgentWin.h">
+      <Filter>Header Files\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\OSAgentWinQt.h">
+      <Filter>Header Files\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\PathManager.h">
+      <Filter>Header Files\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\SafeTermProc.h">
+      <Filter>Header Files\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\WallpaperSetter.h">
+      <Filter>Header Files\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\ApplicationProhibition.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Session.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\UserAccount.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Update\HttpDownloader.h">
+      <Filter>Header Files\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="Update\LocalConfig.h">
+      <Filter>Header Files\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="Update\LocalFileItem.h">
+      <Filter>Header Files\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="Update\LocalUpdateConfig.h">
+      <Filter>Header Files\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="Update\UpdateChecker.h">
+      <Filter>Header Files\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_client\pbc\AdminOptionPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_client\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_client\pbc\CCHandshakePack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_client\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_client\pbc\CLClientStatusPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_client\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_client\pbc\CLHandshakePack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_client\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_client\pbc\LanguageUpdatePack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_client\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_client\pbc\NetworkStatePack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_client\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_client\pbc\ScreenLockPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_client\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\AdminCodePack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\ApplicationProhibitionPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\CafeInfoPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\CaptureScreenPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\ChangePwdPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\ClientAdTransferPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\ClientCodeDllUpdatedPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\ClientCodeTransferPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\ClientConnectionPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\ClientInformationPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\ClientLockPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\ClientSettingNewPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\ClientSettingPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\ClientUIConfigPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\ClientWallpaperTransferPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\FlashTransferPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\GcaAuthPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\GcaProductPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\HandshakePack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\HeartBeatPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\LockPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\OfflineSessionItemPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\OfflineSessionPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\OrderPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\PCActionPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\ProductPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\QueryAppPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\ScreenLockServerPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\ScreenUnlockServerPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\SecurityProfilePack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\SessionPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\SessionStatusPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\SystemMessagePack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\TextMessagePack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\TopupByCouponPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\UnlockPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\UpdateClientPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\UserAuthPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\UserGroupUpdatePack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\UserLoginPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\UserLogoutDonePack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\UserLogoutPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\UserUpdatePack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\WebControlPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc\WebHistoryPack.pb.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\ProtoBuffer_common\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cipher\crypto\RSA_Key.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cipher\crypto\XOREncrypt.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cipher\crypto\XOREncryptHelper.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cipher\crypto\XTEA.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cipher\crypto\XTEA_KEY.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cipher\server_crypto\Crypt.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher\server_crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cipher\server_crypto\ServerXTEA_KEY.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher\server_crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cipher\CentralServerStdXteaCipher.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cipher\QFastHash.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cipher\QFileCipher.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cipher\QSHA2Cipher.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cipher\QXteaCipher.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cipher\Qcrc32.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cipher\SHA2.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cmd\CmdPktHeader.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cmd\CommandPkt.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cmd\CommandProcessorBase.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cmd\CommandsRouter.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cmd\ICommandProcessor.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cmd\ICommandQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cmd\c2sCmdIDs.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cmd\cs2ssCmds.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cmd\s2cCmdIDs.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Cmd\ss2csCmds.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Cmd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\ss2cs\SessionBeginQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data\ss2cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\ss2cs\SessionEndQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data\ss2cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\ss2cs\SessionStatusQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data\ss2cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\AdminCodeQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\AppControlQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\CafeInfoQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\ChangeAccPwdQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\ClientAdTransferQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\ClientCodeDllUpdatedQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\ClientCodeTransferQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\ClientConnectionQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\ClientInformationQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\ClientLockQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\ClientUIConfigQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\ClientWallpaperTransferQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\FlashTransferQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\GcaAuthQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\GcaProductQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\HandshakeQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\HeartBeatQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\OfflineSessionQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\OrderQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\PcActionQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\ProductQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\QueryTermAppQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\ScreenLockFromServerQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\ScreenUnlockFromServerQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\ScreencaptureQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\SecurityProfileQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\SystemMessageQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\SystemSettingNewQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\SystemSettingQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\TextMessageQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\TopupByCouponQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\UpdateClientQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\UserLoginQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\UserLogoutQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\UserUpdateQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\WebControlQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Data\WebHistoryQtModel.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Helper\QtTypePtrs.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Helper\SmartPtrs.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Helper\StdTypes.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Helper\SysInfoHelper.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Logger\log.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\Logger\odprintf.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\TxtLoader\TxtLoader.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\TxtLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\mySqlUtil\MySqlPwd4_1.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\mySqlUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\settings\CommonSettings.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\settings\NetworkSettings.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\settings\NetworkStatus.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\settings\PlatformConsts.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\settings\SecuritySettings.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\settings\SessionStatus.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\settings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\utils\DateTimeUtils.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\utils\GFileUtils.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\utils\StringUtils.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\utils\Utils.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\uic\include\ui_AdminOptionDialog.h">
+      <Filter>Generated Files\GUI\uic\include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\uic\include\ui_ChangePwdDialog.h">
+      <Filter>Generated Files\GUI\uic\include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\uic\include\ui_LockOutSettingDialog.h">
+      <Filter>Generated Files\GUI\uic\include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\uic\include\ui_MiniDialog.h">
+      <Filter>Generated Files\GUI\uic\include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\uic\include\ui_OrderDialog.h">
+      <Filter>Generated Files\GUI\uic\include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\uic\include\ui_OrderHistoryDialog.h">
+      <Filter>Generated Files\GUI\uic\include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\uic\include\ui_QcIPWidget.h">
+      <Filter>Generated Files\GUI\uic\include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\uic\include\ui_TextMessageDialog.h">
+      <Filter>Generated Files\GUI\uic\include</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\uic\include\ui_TopupByCouponDialog.h">
+      <Filter>Generated Files\GUI\uic\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="..\bin\intermediate\Debug\.obj\clientApp.res">
+      <Filter>Generated Files\..\bin\intermediate\Debug\.obj</Filter>
+    </Resource>
+    <Resource Include="..\bin\intermediate\Release\.obj\clientApp.res">
+      <Filter>Generated Files\..\bin\intermediate\Release\.obj</Filter>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tr\clientApp\en_US.ts">
+      <Filter>Translation Files\tr\clientApp</Filter>
+    </None>
+    <None Include="tr\clientApp\vi_VN.ts">
+      <Filter>Translation Files\tr\clientApp</Filter>
+    </None>
+    <None Include="Resource\ad\ad">
+      <Filter>Resource Files\Resource\ad</Filter>
+    </None>
+    <None Include="Resource\css\CheckBox.css">
+      <Filter>Resource Files\Resource\css</Filter>
+    </None>
+    <None Include="Resource\css\ComboBox.css">
+      <Filter>Resource Files\Resource\css</Filter>
+    </None>
+    <None Include="Resource\css\DateEdit.css">
+      <Filter>Resource Files\Resource\css</Filter>
+    </None>
+    <None Include="Resource\css\Dialog.css">
+      <Filter>Resource Files\Resource\css</Filter>
+    </None>
+    <None Include="Resource\css\GroupBox.css">
+      <Filter>Resource Files\Resource\css</Filter>
+    </None>
+    <None Include="Resource\css\LineEdit.css">
+      <Filter>Resource Files\Resource\css</Filter>
+    </None>
+    <None Include="Resource\css\MainWindow.css">
+      <Filter>Resource Files\Resource\css</Filter>
+    </None>
+    <None Include="Resource\css\MenuBar.css">
+      <Filter>Resource Files\Resource\css</Filter>
+    </None>
+    <None Include="Resource\css\PushButton.css">
+      <Filter>Resource Files\Resource\css</Filter>
+    </None>
+    <None Include="Resource\css\QWidget.css">
+      <Filter>Resource Files\Resource\css</Filter>
+    </None>
+    <None Include="Resource\css\RadioButton.css">
+      <Filter>Resource Files\Resource\css</Filter>
+    </None>
+    <None Include="Resource\css\RibbonButton.css">
+      <Filter>Resource Files\Resource\css</Filter>
+    </None>
+    <None Include="Resource\css\ScrollBar.css">
+      <Filter>Resource Files\Resource\css</Filter>
+    </None>
+    <None Include="Resource\css\SpinBox.css">
+      <Filter>Resource Files\Resource\css</Filter>
+    </None>
+    <None Include="Resource\css\StatusBar.css">
+      <Filter>Resource Files\Resource\css</Filter>
+    </None>
+    <None Include="Resource\css\TabWidget.css">
+      <Filter>Resource Files\Resource\css</Filter>
+    </None>
+    <None Include="Resource\css\TableWidget.css">
+      <Filter>Resource Files\Resource\css</Filter>
+    </None>
+    <None Include="Resource\css\TimeEdit.css">
+      <Filter>Resource Files\Resource\css</Filter>
+    </None>
+    <None Include="Resource\css\TitleBar-MainWindow.css">
+      <Filter>Resource Files\Resource\css</Filter>
+    </None>
+    <None Include="Resource\css\ToolButton.css">
+      <Filter>Resource Files\Resource\css</Filter>
+    </None>
+    <None Include="Resource\css\Toolbar.css">
+      <Filter>Resource Files\Resource\css</Filter>
+    </None>
+    <None Include="Resource\regionalSettings\ID.ini">
+      <Filter>Resource Files\Resource\regionalSettings</Filter>
+    </None>
+    <None Include="Resource\regionalSettings\SG.ini">
+      <Filter>Resource Files\Resource\regionalSettings</Filter>
+    </None>
+    <None Include="Resource\regionalSettings\TH.ini">
+      <Filter>Resource Files\Resource\regionalSettings</Filter>
+    </None>
+    <None Include="Resource\regionalSettings\VN.ini">
+      <Filter>Resource Files\Resource\regionalSettings</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resource\extra\extra1.gif">
+      <Filter>Resource Files\Resource\extra</Filter>
+    </Image>
+    <Image Include="Resource\icons\Common\add.png">
+      <Filter>Resource Files\Resource\icons\Common</Filter>
+    </Image>
+    <Image Include="Resource\icons\Common\apply.png">
+      <Filter>Resource Files\Resource\icons\Common</Filter>
+    </Image>
+    <Image Include="Resource\icons\Common\cancel.png">
+      <Filter>Resource Files\Resource\icons\Common</Filter>
+    </Image>
+    <Image Include="Resource\icons\Common\client.ico">
+      <Filter>Resource Files\Resource\icons\Common</Filter>
+    </Image>
+    <Image Include="Resource\icons\Common\edit.png">
+      <Filter>Resource Files\Resource\icons\Common</Filter>
+    </Image>
+    <Image Include="Resource\icons\Common\ok.png">
+      <Filter>Resource Files\Resource\icons\Common</Filter>
+    </Image>
+    <Image Include="Resource\icons\Common\settings.png">
+      <Filter>Resource Files\Resource\icons\Common</Filter>
+    </Image>
+    <Image Include="Resource\icons\LockSettingDialog\icon-btn-lock.png">
+      <Filter>Resource Files\Resource\icons\LockSettingDialog</Filter>
+    </Image>
+    <Image Include="Resource\icons\LockSettingDialog\icon-lock.png">
+      <Filter>Resource Files\Resource\icons\LockSettingDialog</Filter>
+    </Image>
+    <Image Include="Resource\icons\MiniWindow\connection-green.png">
+      <Filter>Resource Files\Resource\icons\MiniWindow</Filter>
+    </Image>
+    <Image Include="Resource\icons\MiniWindow\connection-red.png">
+      <Filter>Resource Files\Resource\icons\MiniWindow</Filter>
+    </Image>
+    <Image Include="Resource\icons\MiniWindow\connection-yellow.png">
+      <Filter>Resource Files\Resource\icons\MiniWindow</Filter>
+    </Image>
+    <Image Include="Resource\icons\MiniWindow\home-change-password.png">
+      <Filter>Resource Files\Resource\icons\MiniWindow</Filter>
+    </Image>
+    <Image Include="Resource\icons\MiniWindow\home-lock-pc.png">
+      <Filter>Resource Files\Resource\icons\MiniWindow</Filter>
+    </Image>
+    <Image Include="Resource\icons\MiniWindow\home-logout.png">
+      <Filter>Resource Files\Resource\icons\MiniWindow</Filter>
+    </Image>
+    <Image Include="Resource\icons\MiniWindow\home-order.png">
+      <Filter>Resource Files\Resource\icons\MiniWindow</Filter>
+    </Image>
+    <Image Include="Resource\icons\MiniWindow\home-send-msg.png">
+      <Filter>Resource Files\Resource\icons\MiniWindow</Filter>
+    </Image>
+    <Image Include="Resource\icons\MiniWindow\home-utilities.png">
+      <Filter>Resource Files\Resource\icons\MiniWindow</Filter>
+    </Image>
+    <Image Include="Resource\icons\MiniWindow\icon-btn-exit.png">
+      <Filter>Resource Files\Resource\icons\MiniWindow</Filter>
+    </Image>
+    <Image Include="Resource\icons\MiniWindow\icon-btn-settings.png">
+      <Filter>Resource Files\Resource\icons\MiniWindow</Filter>
+    </Image>
+    <Image Include="Resource\icons\MiniWindow\icon-system-msg.png">
+      <Filter>Resource Files\Resource\icons\MiniWindow</Filter>
+    </Image>
+    <Image Include="Resource\icons\TempLockDialog\icon-btn-unlock.png">
+      <Filter>Resource Files\Resource\icons\TempLockDialog</Filter>
+    </Image>
+    <Image Include="Resource\icons\TempLockDialog\icon-unlock-by-acc.png">
+      <Filter>Resource Files\Resource\icons\TempLockDialog</Filter>
+    </Image>
+    <Image Include="Resource\icons\TempLockDialog\icon-unlock-by-code.png">
+      <Filter>Resource Files\Resource\icons\TempLockDialog</Filter>
+    </Image>
+    <Image Include="Resource\styles\Button\btn-black-big-disabled.png">
+      <Filter>Resource Files\Resource\styles\Button</Filter>
+    </Image>
+    <Image Include="Resource\styles\Button\btn-black-big-down.png">
+      <Filter>Resource Files\Resource\styles\Button</Filter>
+    </Image>
+    <Image Include="Resource\styles\Button\btn-black-big-hover.png">
+      <Filter>Resource Files\Resource\styles\Button</Filter>
+    </Image>
+    <Image Include="Resource\styles\Button\btn-black-big-normal.png">
+      <Filter>Resource Files\Resource\styles\Button</Filter>
+    </Image>
+    <Image Include="Resource\styles\Button\btn-black-small-disabled.png">
+      <Filter>Resource Files\Resource\styles\Button</Filter>
+    </Image>
+    <Image Include="Resource\styles\Button\btn-black-small-down.png">
+      <Filter>Resource Files\Resource\styles\Button</Filter>
+    </Image>
+    <Image Include="Resource\styles\Button\btn-black-small-hover.png">
+      <Filter>Resource Files\Resource\styles\Button</Filter>
+    </Image>
+    <Image Include="Resource\styles\Button\btn-black-small-normal.png">
+      <Filter>Resource Files\Resource\styles\Button</Filter>
+    </Image>
+    <Image Include="Resource\styles\Button\btn-blue-big-disabled.png">
+      <Filter>Resource Files\Resource\styles\Button</Filter>
+    </Image>
+    <Image Include="Resource\styles\Button\btn-blue-big-down.png">
+      <Filter>Resource Files\Resource\styles\Button</Filter>
+    </Image>
+    <Image Include="Resource\styles\Button\btn-blue-big-hover.png">
+      <Filter>Resource Files\Resource\styles\Button</Filter>
+    </Image>
+    <Image Include="Resource\styles\Button\btn-blue-big-normal.png">
+      <Filter>Resource Files\Resource\styles\Button</Filter>
+    </Image>
+    <Image Include="Resource\styles\Button\btn-blue-small-disabled.png">
+      <Filter>Resource Files\Resource\styles\Button</Filter>
+    </Image>
+    <Image Include="Resource\styles\Button\btn-blue-small-down.png">
+      <Filter>Resource Files\Resource\styles\Button</Filter>
+    </Image>
+    <Image Include="Resource\styles\Button\btn-blue-small-hover.png">
+      <Filter>Resource Files\Resource\styles\Button</Filter>
+    </Image>
+    <Image Include="Resource\styles\Button\btn-blue-small-normal.png">
+      <Filter>Resource Files\Resource\styles\Button</Filter>
+    </Image>
+    <Image Include="Resource\styles\Button\btn-close-disabled.png">
+      <Filter>Resource Files\Resource\styles\Button</Filter>
+    </Image>
+    <Image Include="Resource\styles\Button\btn-close-down.png">
+      <Filter>Resource Files\Resource\styles\Button</Filter>
+    </Image>
+    <Image Include="Resource\styles\Button\btn-close-hover.png">
+      <Filter>Resource Files\Resource\styles\Button</Filter>
+    </Image>
+    <Image Include="Resource\styles\Button\btn-close-normal.png">
+      <Filter>Resource Files\Resource\styles\Button</Filter>
+    </Image>
+    <Image Include="Resource\styles\Button\btn-send-disabled.png">
+      <Filter>Resource Files\Resource\styles\Button</Filter>
+    </Image>
+    <Image Include="Resource\styles\Button\btn-send-down.png">
+      <Filter>Resource Files\Resource\styles\Button</Filter>
+    </Image>
+    <Image Include="Resource\styles\Button\btn-send-hover.png">
+      <Filter>Resource Files\Resource\styles\Button</Filter>
+    </Image>
+    <Image Include="Resource\styles\Button\btn-send-normal.png">
+      <Filter>Resource Files\Resource\styles\Button</Filter>
+    </Image>
+    <Image Include="Resource\styles\CheckBox\checkbox-checked-disabled.png">
+      <Filter>Resource Files\Resource\styles\CheckBox</Filter>
+    </Image>
+    <Image Include="Resource\styles\CheckBox\checkbox-checked-down.png">
+      <Filter>Resource Files\Resource\styles\CheckBox</Filter>
+    </Image>
+    <Image Include="Resource\styles\CheckBox\checkbox-checked-hover.png">
+      <Filter>Resource Files\Resource\styles\CheckBox</Filter>
+    </Image>
+    <Image Include="Resource\styles\CheckBox\checkbox-checked-normal.png">
+      <Filter>Resource Files\Resource\styles\CheckBox</Filter>
+    </Image>
+    <Image Include="Resource\styles\CheckBox\checkbox-disabled.png">
+      <Filter>Resource Files\Resource\styles\CheckBox</Filter>
+    </Image>
+    <Image Include="Resource\styles\CheckBox\checkbox-down.png">
+      <Filter>Resource Files\Resource\styles\CheckBox</Filter>
+    </Image>
+    <Image Include="Resource\styles\CheckBox\checkbox-hover.png">
+      <Filter>Resource Files\Resource\styles\CheckBox</Filter>
+    </Image>
+    <Image Include="Resource\styles\CheckBox\checkbox-normal.png">
+      <Filter>Resource Files\Resource\styles\CheckBox</Filter>
+    </Image>
+    <Image Include="Resource\styles\ComboBox\dropdown-btn-disabled.png">
+      <Filter>Resource Files\Resource\styles\ComboBox</Filter>
+    </Image>
+    <Image Include="Resource\styles\ComboBox\dropdown-btn-down.png">
+      <Filter>Resource Files\Resource\styles\ComboBox</Filter>
+    </Image>
+    <Image Include="Resource\styles\ComboBox\dropdown-btn-hover.png">
+      <Filter>Resource Files\Resource\styles\ComboBox</Filter>
+    </Image>
+    <Image Include="Resource\styles\ComboBox\dropdown-btn-normal.png">
+      <Filter>Resource Files\Resource\styles\ComboBox</Filter>
+    </Image>
+    <Image Include="Resource\styles\ComboBox\dropdown-disabled.png">
+      <Filter>Resource Files\Resource\styles\ComboBox</Filter>
+    </Image>
+    <Image Include="Resource\styles\ComboBox\dropdown-down.png">
+      <Filter>Resource Files\Resource\styles\ComboBox</Filter>
+    </Image>
+    <Image Include="Resource\styles\ComboBox\dropdown-hover.png">
+      <Filter>Resource Files\Resource\styles\ComboBox</Filter>
+    </Image>
+    <Image Include="Resource\styles\ComboBox\dropdown-normal.png">
+      <Filter>Resource Files\Resource\styles\ComboBox</Filter>
+    </Image>
+    <Image Include="Resource\styles\LineEdit\lineedit-disabled.png">
+      <Filter>Resource Files\Resource\styles\LineEdit</Filter>
+    </Image>
+    <Image Include="Resource\styles\LineEdit\lineedit-down.png">
+      <Filter>Resource Files\Resource\styles\LineEdit</Filter>
+    </Image>
+    <Image Include="Resource\styles\LineEdit\lineedit-hover.png">
+      <Filter>Resource Files\Resource\styles\LineEdit</Filter>
+    </Image>
+    <Image Include="Resource\styles\LineEdit\lineedit-normal.png">
+      <Filter>Resource Files\Resource\styles\LineEdit</Filter>
+    </Image>
+    <Image Include="Resource\styles\RadioButton\radio-checked-disabled.png">
+      <Filter>Resource Files\Resource\styles\RadioButton</Filter>
+    </Image>
+    <Image Include="Resource\styles\RadioButton\radio-checked-down.png">
+      <Filter>Resource Files\Resource\styles\RadioButton</Filter>
+    </Image>
+    <Image Include="Resource\styles\RadioButton\radio-checked-hover.png">
+      <Filter>Resource Files\Resource\styles\RadioButton</Filter>
+    </Image>
+    <Image Include="Resource\styles\RadioButton\radio-checked-normal.png">
+      <Filter>Resource Files\Resource\styles\RadioButton</Filter>
+    </Image>
+    <Image Include="Resource\styles\RadioButton\radio-disabled.png">
+      <Filter>Resource Files\Resource\styles\RadioButton</Filter>
+    </Image>
+    <Image Include="Resource\styles\RadioButton\radio-down.png">
+      <Filter>Resource Files\Resource\styles\RadioButton</Filter>
+    </Image>
+    <Image Include="Resource\styles\RadioButton\radio-hover.png">
+      <Filter>Resource Files\Resource\styles\RadioButton</Filter>
+    </Image>
+    <Image Include="Resource\styles\RadioButton\radio-normal.png">
+      <Filter>Resource Files\Resource\styles\RadioButton</Filter>
+    </Image>
+    <Image Include="Resource\styles\RibbonButton\ribbon-btn-hover.png">
+      <Filter>Resource Files\Resource\styles\RibbonButton</Filter>
+    </Image>
+    <Image Include="Resource\styles\RibbonButton\ribbon-menu-bg.png">
+      <Filter>Resource Files\Resource\styles\RibbonButton</Filter>
+    </Image>
+    <Image Include="Resource\styles\RibbonButton\ribbon-menu-indicator.png">
+      <Filter>Resource Files\Resource\styles\RibbonButton</Filter>
+    </Image>
+    <Image Include="Resource\styles\RibbonButton\ribbon-menu-separator.png">
+      <Filter>Resource Files\Resource\styles\RibbonButton</Filter>
+    </Image>
+    <Image Include="Resource\styles\SpinBox\numeric-down-disabled.png">
+      <Filter>Resource Files\Resource\styles\SpinBox</Filter>
+    </Image>
+    <Image Include="Resource\styles\SpinBox\numeric-down-down.png">
+      <Filter>Resource Files\Resource\styles\SpinBox</Filter>
+    </Image>
+    <Image Include="Resource\styles\SpinBox\numeric-down-hover.png">
+      <Filter>Resource Files\Resource\styles\SpinBox</Filter>
+    </Image>
+    <Image Include="Resource\styles\SpinBox\numeric-down-normal.png">
+      <Filter>Resource Files\Resource\styles\SpinBox</Filter>
+    </Image>
+    <Image Include="Resource\styles\SpinBox\numeric-up-disabled.png">
+      <Filter>Resource Files\Resource\styles\SpinBox</Filter>
+    </Image>
+    <Image Include="Resource\styles\SpinBox\numeric-up-down.png">
+      <Filter>Resource Files\Resource\styles\SpinBox</Filter>
+    </Image>
+    <Image Include="Resource\styles\SpinBox\numeric-up-hover.png">
+      <Filter>Resource Files\Resource\styles\SpinBox</Filter>
+    </Image>
+    <Image Include="Resource\styles\SpinBox\numeric-up-normal.png">
+      <Filter>Resource Files\Resource\styles\SpinBox</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource\clientApp.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\CommonUi\Validator\GMoneyValidator.h">
+      <Filter>Header Files\..\..\..\CommonUi\Validator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\CommonUi\Validator\GUpperCaseValidator.h">
+      <Filter>Header Files\..\..\..\CommonUi\Validator</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CommandProc\cs2cc\AdminOptionReplyProcessorC.h">
+      <Filter>Header Files\CommandProc\cs2cc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CommandProc\cs2cc\CCHandshakeAckProcessorC.h">
+      <Filter>Header Files\CommandProc\cs2cc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CommandProc\cs2cc\CCHeartbeatReplyProcessorC.h">
+      <Filter>Header Files\CommandProc\cs2cc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CommandProc\cs2cc\ClientCodeDllUpdatedProcessorC.h">
+      <Filter>Header Files\CommandProc\cs2cc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CommandProc\cs2cc\NetworkStateReplyProcessorC.h">
+      <Filter>Header Files\CommandProc\cs2cc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CommandProc\cs2cc\ScreenLockReplyProcessorC.h">
+      <Filter>Header Files\CommandProc\cs2cc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CommandProc\cs2cc\ScreenUnlockReplyProcessorC.h">
+      <Filter>Header Files\CommandProc\cs2cc</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CommandProc\s2c\AppControlReplyProcessor.h">
+      <Filter>Header Files\CommandProc\s2c</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CommandProc\s2c\ChangePwdReplyProcessor.h">
+      <Filter>Header Files\CommandProc\s2c</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CommandProc\s2c\ClientAdTransferReplyProcessor.h">
+      <Filter>Header Files\CommandProc\s2c</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CommandProc\s2c\ClientSettingReplyProcessor.h">
+      <Filter>Header Files\CommandProc\s2c</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CommandProc\s2c\ClientWallpaperTransferReplyProcessor.h">
+      <Filter>Header Files\CommandProc\s2c</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CommandProc\s2c\PcActionRequestProcessor.h">
+      <Filter>Header Files\CommandProc\s2c</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CommandProc\s2c\ProductReplyProcessor.h">
+      <Filter>Header Files\CommandProc\s2c</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CommandProc\s2c\QueryAppRequestProcessor.h">
+      <Filter>Header Files\CommandProc\s2c</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CommandProc\s2c\ScreenshotRequestProcessor.h">
+      <Filter>Header Files\CommandProc\s2c</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CommandProc\s2c\SecurityProfileReplyProcessor.h">
+      <Filter>Header Files\CommandProc\s2c</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CommandProc\s2c\SessionBeginProcessor.h">
+      <Filter>Header Files\CommandProc\s2c</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CommandProc\s2c\SessionEndProcessor.h">
+      <Filter>Header Files\CommandProc\s2c</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CommandProc\s2c\SessionStatusProcessor.h">
+      <Filter>Header Files\CommandProc\s2c</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CommandProc\s2c\SystemMessageProcessor.h">
+      <Filter>Header Files\CommandProc\s2c</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CommandProc\s2c\TerminateAppRequestProcessor.h">
+      <Filter>Header Files\CommandProc\s2c</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CommandProc\s2c\TextMessageReplyProcessor.h">
+      <Filter>Header Files\CommandProc\s2c</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CommandProc\s2c\TopupByCouponReplyProcessor.h">
+      <Filter>Header Files\CommandProc\s2c</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CommandProc\s2c\UpdateClientRequestProcessor.h">
+      <Filter>Header Files\CommandProc\s2c</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CommandProc\s2c\UserLoginReplyProcessor.h">
+      <Filter>Header Files\CommandProc\s2c</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CommandProc\s2c\UserLogoutReplyProcessor.h">
+      <Filter>Header Files\CommandProc\s2c</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CommandProc\s2c\UserUpdateProcessor.h">
+      <Filter>Header Files\CommandProc\s2c</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controllers\AdminOptionManager.h">
+      <Filter>Header Files\Controllers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controllers\AppControlManager.h">
+      <Filter>Header Files\Controllers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controllers\ClientAdManager.h">
+      <Filter>Header Files\Controllers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controllers\ClientEventManager.h">
+      <Filter>Header Files\Controllers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controllers\ClientSettingManager.h">
+      <Filter>Header Files\Controllers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controllers\ClientWallpaperManager.h">
+      <Filter>Header Files\Controllers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controllers\HeartbeatSender.h">
+      <Filter>Header Files\Controllers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controllers\ProductManager.h">
+      <Filter>Header Files\Controllers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controllers\SecurityProfileManager.h">
+      <Filter>Header Files\Controllers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controllers\SessionManager.h">
+      <Filter>Header Files\Controllers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controllers\SystemManager.h">
+      <Filter>Header Files\Controllers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controllers\TextMessageManager.h">
+      <Filter>Header Files\Controllers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controllers\UpdateManager.h">
+      <Filter>Header Files\Controllers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controllers\UserAccountManager.h">
+      <Filter>Header Files\Controllers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Controllers\WorkThreadManager.h">
+      <Filter>Header Files\Controllers</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\Components\SystemTray.h">
+      <Filter>Header Files\GUI\Components</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\Dialogs\AdminOptionDialog.h">
+      <Filter>Header Files\GUI\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\Dialogs\ChangePwdDialog.h">
+      <Filter>Header Files\GUI\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\Dialogs\LockOutSettingDialog.h">
+      <Filter>Header Files\GUI\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\Dialogs\MiniDialog.h">
+      <Filter>Header Files\GUI\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\Dialogs\OrderDialog.h">
+      <Filter>Header Files\GUI\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\Dialogs\TextMessageDialog.h">
+      <Filter>Header Files\GUI\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\Dialogs\TopupByCouponDialog.h">
+      <Filter>Header Files\GUI\Dialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\Widgets\QcIPWidget\QcIPSectorWidget.h">
+      <Filter>Header Files\GUI\Widgets\QcIPWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\Widgets\QcIPWidget\QcIPWidget.h">
+      <Filter>Header Files\GUI\Widgets\QcIPWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\Widgets\GClickableLabel.h">
+      <Filter>Header Files\GUI\Widgets</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\Widgets\GPlainTextEdit.h">
+      <Filter>Header Files\GUI\Widgets</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\Widgets\GSkinDialog.h">
+      <Filter>Header Files\GUI\Widgets</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\Widgets\GSkinMainWindow.h">
+      <Filter>Header Files\GUI\Widgets</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\Widgets\QSkinMainWindow.h">
+      <Filter>Header Files\GUI\Widgets</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\Widgets\QSkinWidget.h">
+      <Filter>Header Files\GUI\Widgets</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\Widgets\QWidgetResizeHandler_p.h">
+      <Filter>Header Files\GUI\Widgets</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\GuiController.h">
+      <Filter>Header Files\GUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Helper\LogManager.h">
+      <Filter>Header Files\Helper</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Helper\RestartExplorerHelper.h">
+      <Filter>Header Files\Helper</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Helper\SoundManager.h">
+      <Filter>Header Files\Helper</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Helper\TimerTaskManager.h">
+      <Filter>Header Files\Helper</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Models\Client.h">
+      <Filter>Header Files\Models</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Models\Product.h">
+      <Filter>Header Files\Models</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Models\SecurityProfile.h">
+      <Filter>Header Files\Models</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Network\cc2csNetworkManager.h">
+      <Filter>Header Files\Network</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Network\cc2csSocketManager.h">
+      <Filter>Header Files\Network</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WebHistory\ChromeHistoryHelper.h">
+      <Filter>Header Files\WebHistory</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WebHistory\FirefoxHistoryHelper.h">
+      <Filter>Header Files\WebHistory</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WebHistory\IEHistoryHelper.h">
+      <Filter>Header Files\WebHistory</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WebHistory\WebHistoryManager.h">
+      <Filter>Header Files\WebHistory</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\..\..\..\Work\Projects\GBill\gbill_shared\common\mySqlUtil\MySqlOldPwd.h">
+      <Filter>Header Files\d:\Work\Projects\GBill\gbill_shared\common\mySqlUtil</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\Widgets\QcIPWidget\QcIPWidget.ui">
+      <Filter>Form Files\GUI\Widgets\QcIPWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\uiDialogs\AdminOptionDialog.ui">
+      <Filter>Form Files\GUI\uiDialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\uiDialogs\ChangePwdDialog.ui">
+      <Filter>Form Files\GUI\uiDialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\uiDialogs\LockOutSettingDialog.ui">
+      <Filter>Form Files\GUI\uiDialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\uiDialogs\MiniDialog.ui">
+      <Filter>Form Files\GUI\uiDialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\uiDialogs\OrderDialog.ui">
+      <Filter>Form Files\GUI\uiDialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\uiDialogs\OrderHistoryDialog.ui">
+      <Filter>Form Files\GUI\uiDialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\uiDialogs\TextMessageDialog.ui">
+      <Filter>Form Files\GUI\uiDialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GUI\uiDialogs\TopupByCouponDialog.ui">
+      <Filter>Form Files\GUI\uiDialogs</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resource\clientApp.qrc">
+      <Filter>Resource Files\Resource</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

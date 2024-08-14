@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LoginDialog</class>
+ <widget class="QDialog" name="LoginDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>237</width>
+    <height>186</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Garena Cafe Billing</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../../resource/clientApp.qrc">
+    <normaloff>:/icons/icons/Common/client.ico</normaloff>:/icons/icons/Common/client.ico</iconset>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="userLoginDescriptLabel">
+     <property name="text">
+      <string>Enter the user name and password</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="userNameTitleLabel">
+       <property name="text">
+        <string>Username:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="userNameLineEdit">
+       <property name="inputMask">
+        <string notr="true"/>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="userPwdTitleLabel">
+       <property name="text">
+        <string>Password</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="userPwdLineEdit">
+       <property name="echoMode">
+        <enum>QLineEdit::Password</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QLabel" name="failureReasonLabel">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>78</width>
+         <height>21</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="userLoginButton">
+       <property name="text">
+        <string>Login</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../resource/clientApp.qrc">
+         <normaloff>:/icons/icons/Common/ok.png</normaloff>:/icons/icons/Common/ok.png</iconset>
+       </property>
+       <property name="cssType" stdset="0">
+        <string notr="true">smallBlueButton</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="closeButton">
+       <property name="text">
+        <string>Close</string>
+       </property>
+       <property name="icon">
+        <iconset resource="../../resource/clientApp.qrc">
+         <normaloff>:/icons/icons/Common/cancel.png</normaloff>:/icons/icons/Common/cancel.png</iconset>
+       </property>
+       <property name="cssType" stdset="0">
+        <string notr="true">smallBlackButton</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../resource/clientApp.qrc"/>
+ </resources>
+ <connections/>
+</ui>

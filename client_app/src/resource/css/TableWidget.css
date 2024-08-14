@@ -1,0 +1,24 @@
+QHeaderView::section {
+    background-image: url(:/styles/styles/TableWidget/tableheader-normal.png);
+    height: 25px;
+    /*if we don't set the border and margin, the background-image won't work*/
+    /*simply remove the border*/
+    border: none;
+    /*makr each table header column item margin from left 1px, so that the QHeaderView::background-image can be displayed (as the separator)*/
+    margin: 0 1px 0 0;
+ }
+ QHeaderView::section:selected {
+    background-image: url(:/styles/styles/TableWidget/tableheader-down.png);
+ }
+ QHeaderView::section:hover {
+    background-image: url(:/styles/styles/TableWidget/tableheader-hover.png);
+ }
+QHeaderView {
+    /*the separator of different columns. Since we set the column color, so the separator color will be displayed as the background color*/ 
+    background-image: url(:/styles/styles/TableWidget/table-sep.png);
+    /*background-color:red;*/
+}
+/*Define the selection color of the table widget content area */
+QTableView {
+    /*selection-background-color: rgb(51, 153, 255);*/
+}

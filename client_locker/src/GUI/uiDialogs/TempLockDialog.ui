@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TempLockDialog</class>
+ <widget class="QDialog" name="TempLockDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>238</width>
+    <height>184</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Unlock computer</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_3">
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>1</number>
+     </property>
+     <widget class="QWidget" name="unlockByCodeTab">
+      <attribute name="icon">
+       <iconset resource="../../resource/clientApp.qrc">
+        <normaloff>:/icons/icons/TempLockDialog/icon-unlock-by-code.png</normaloff>:/icons/icons/TempLockDialog/icon-unlock-by-code.png</iconset>
+      </attribute>
+      <attribute name="title">
+       <string>Unlock</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="descriptLabel_2">
+         <property name="text">
+          <string>Enter the password you just set</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="0" column="0">
+          <widget class="QLabel" name="pwdTitleLabel_2">
+           <property name="text">
+            <string>Password:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="tempPwdLineEdit">
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QLabel" name="msgLabel">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <spacer name="horizontalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>108</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="unlockButton">
+           <property name="text">
+            <string>Unlock</string>
+           </property>
+           <property name="icon">
+            <iconset resource="../../resource/clientApp.qrc">
+             <normaloff>:/icons/icons/TempLockDialog/icon-btn-unlock.png</normaloff>:/icons/icons/TempLockDialog/icon-btn-unlock.png</iconset>
+           </property>
+           <property name="cssType" stdset="0">
+            <string notr="true">smallBlueButton</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="unlockByAccountTab">
+      <attribute name="icon">
+       <iconset resource="../../resource/clientApp.qrc">
+        <normaloff>:/icons/icons/TempLockDialog/icon-unlock-by-acc.png</normaloff>:/icons/icons/TempLockDialog/icon-unlock-by-acc.png</iconset>
+      </attribute>
+      <attribute name="title">
+       <string>Forget password?</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="descriptLabel_3">
+         <property name="text">
+          <string>Enter your user name and password</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QGridLayout" name="gridLayout_3">
+         <item row="0" column="0">
+          <widget class="QLabel" name="pwdTitleLabel_3">
+           <property name="text">
+            <string>User name:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="userNameLineEdit">
+           <property name="echoMode">
+            <enum>QLineEdit::Normal</enum>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="pwdTitleLabel_4">
+           <property name="text">
+            <string>Password:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="pwdLineEdit">
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QLabel" name="msgLabel_3">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <spacer name="horizontalSpacer_5">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>108</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="unlocByAccountkButton">
+           <property name="text">
+            <string>Unlock</string>
+           </property>
+           <property name="icon">
+            <iconset resource="../../resource/clientApp.qrc">
+             <normaloff>:/icons/icons/TempLockDialog/icon-btn-unlock.png</normaloff>:/icons/icons/TempLockDialog/icon-btn-unlock.png</iconset>
+           </property>
+           <property name="cssType" stdset="0">
+            <string notr="true">smallBlueButton</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../resource/clientApp.qrc"/>
+ </resources>
+ <connections/>
+</ui>

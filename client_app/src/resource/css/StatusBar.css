@@ -1,0 +1,6 @@
+QStatusBar {
+    background-image: url(:/styles/styles/StatusBar/bg-footer.png);
+}
+
+QStatusBar::item {
+}

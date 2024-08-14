@@ -1,0 +1,11 @@
+QMenuBar {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #f1f1f1, stop:1 #e1dede);
+    height:27px;
+    color: black;
+}
+
+QMenuBar::item {
+    text-align:center;
+    padding: 0 10px 0 10px;
+    background: transparent;
+}

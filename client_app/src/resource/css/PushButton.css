@@ -1,0 +1,94 @@
+
+QPushButton[cssType="bigBlueButton"] {
+    color: #ffffff;
+    font-size:14px;
+    font-weight:bold;
+    border-image: url(:/styles/styles/Button/btn-blue-big-normal.png);
+    min-height:35px;
+    min-width:130px;
+}
+QPushButton[cssType="bigBlueButton"]:selected {
+    border-image: url(:/styles/styles/Button/btn-blue-big-down.png);
+}
+QPushButton[cssType="bigBlueButton"]:hover {
+    border-image: url(:/styles/styles/Button/btn-blue-big-hover.png);
+}
+QPushButton[cssType="bigBlueButton"]:disabled {
+    border-image: url(:/styles/styles/Button/btn-blue-big-disabled.png);
+}
+
+
+QPushButton[cssType="smallBlueButton"] {
+    color: #ffffff;
+    font-size:13px;
+    font-weight:bold;
+    border-image: url(:/styles/styles/Button/btn-blue-small-normal.png);
+    min-height:30px;
+    min-width:90px;
+}
+QPushButton[cssType="smallBlueButton"]:selected {
+    border-image: url(:/styles/styles/Button/btn-blue-small-down.png);
+}
+QPushButton[cssType="smallBlueButton"]:hover {
+    border-image: url(:/styles/styles/Button/btn-blue-small-hover.png);
+}
+QPushButton[cssType="smallBlueButton"]:disabled {
+    border-image: url(:/styles/styles/Button/btn-blue-small-disabled.png);
+}
+
+
+
+QPushButton[cssType="bigBlackButton"] {
+    color: #ffffff;
+    font-size:14px;
+    font-weight:bold;
+    border-image: url(:/styles/styles/Button/btn-black-big-normal.png);
+    min-height:35px;
+    min-width:130px;
+}
+QPushButton[cssType="bigBlackButton"]:selected {
+    border-image: url(:/styles/styles/Button/btn-black-big-down.png);
+}
+QPushButton[cssType="bigBlackButton"]:hover {
+    border-image: url(:/styles/styles/Button/btn-black-big-hover.png);
+}
+QPushButton[cssType="bigBlackButton"]:disabled {
+    border-image: url(:/styles/styles/Button/btn-black-big-disabled.png);
+}
+
+
+QPushButton[cssType="smallBlackButton"] {
+    color: #ffffff;
+    font-size:13px;
+    font-weight:bold;
+    border-image: url(:/styles/styles/Button/btn-black-small-normal.png);
+    min-height:30px;
+    min-width:90px;
+}
+QPushButton[cssType="smallBlackButton"]:selected {
+    border-image: url(:/styles/styles/Button/btn-black-small-down.png);
+}
+QPushButton[cssType="smallBlackButton"]:hover {
+    border-image: url(:/styles/styles/Button/btn-black-small-hover.png);
+}
+QPushButton[cssType="smallBlackButton"]:disabled {
+    border-image: url(:/styles/styles/Button/btn-black-small-disabled.png);
+}
+
+
+QPushButton[cssType="smallButton"] {
+    border-image: url(:/styles/styles/Button/btn-whitesmall-normal.png);
+    min-height:25px;
+    max-height:25px;
+    min-width:25px;
+    max-width:25px;
+}
+QPushButton[cssType="smallButton"]:selected {
+    border-image: url(:/styles/styles/Button/btn-whitesmall-down.png);
+}
+QPushButton[cssType="smallButton"]:hover {
+    border-image: url(:/styles/styles/Button/btn-whitesmall-hover.png);
+}
+QPushButton[cssType="smallButton"]:disabled {
+    border-image: url(:/styles/styles/Button/btn-whitesmall-disabled.png);
+}

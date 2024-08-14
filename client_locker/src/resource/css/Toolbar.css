@@ -1,0 +1,6 @@
+QToolBar {
+    min-height: 37px;
+    spacing: 2px;
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #f6f6f6, stop:1 #e5e5e5);
+    border-bottom: 1px solid #FFFFFF; /*make a border between the toolbar and the main TabWidget*/
+}

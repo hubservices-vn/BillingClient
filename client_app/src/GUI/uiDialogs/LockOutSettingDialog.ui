@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LockOutSettingDialog</class>
+ <widget class="QDialog" name="LockOutSettingDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>260</width>
+    <height>179</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Lock computer</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_3">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="iconLabel">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../../resource/clientApp.qrc">:/icons/icons/LockSettingDialog/icon-lock.png</pixmap>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="descriptLabel">
+         <property name="text">
+          <string>Set a temp password here.
+IMPORTANT: 
+be sure to remember this password.
+it will be used to unlock the computer later</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QFormLayout" name="formLayout">
+       <item row="0" column="0">
+        <widget class="QLabel" name="pwdTitleLabel">
+         <property name="text">
+          <string>Password:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="pwdLineEdit">
+         <property name="echoMode">
+          <enum>QLineEdit::Password</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="pwdRptTitleLabel">
+         <property name="text">
+          <string>Repeat password:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="pwdRptLineEdit">
+         <property name="echoMode">
+          <enum>QLineEdit::Password</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QLabel" name="msgLabel">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="lockButton">
+         <property name="text">
+          <string>&amp;Lock!</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../../resource/clientApp.qrc">
+           <normaloff>:/icons/icons/LockSettingDialog/icon-btn-lock.png</normaloff>:/icons/icons/LockSettingDialog/icon-btn-lock.png</iconset>
+         </property>
+         <property name="cssType" stdset="0">
+          <string notr="true">smallBlueButton</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="cancelButton">
+         <property name="text">
+          <string>Cancel</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../../resource/clientApp.qrc">
+           <normaloff>:/icons/icons/Common/cancel.png</normaloff>:/icons/icons/Common/cancel.png</iconset>
+         </property>
+         <property name="cssType" stdset="0">
+          <string notr="true">smallBlackButton</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../resource/clientApp.qrc"/>
+  <include location="../../resource/clientApp.qrc"/>
+  <include location="../../resource/clientApp.qrc"/>
+ </resources>
+ <connections/>
+</ui>

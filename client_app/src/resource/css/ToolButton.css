@@ -1,0 +1,32 @@
+QToolButton[cssType="rawToolButton"] {
+    border: 1px solid #8f8f91;
+    border-radius: 4px;
+}
+
+QToolButton[cssType="rawToolButton"]:enabled {
+    background-color: red;
+}
+
+QToolButton[cssType="rawToolButton"]:disabled { 
+}
+
+ QToolButton[cssType="rawToolButton"][popupMode="1"] { /* only for MenuButtonPopup */
+     padding-right: 20px; /* make way for the popup button */
+ }
+
+/* the subcontrols below are used only in the MenuButtonPopup mode */
+QToolButton::menu-button {
+    border: 1px solid gray;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    /* 16px width + 2px for border = 18px allocated above */
+    width: 18px;
+}
+
+QToolButton::menu-arrow {
+	image: url(:/styles/styles/ScrollBar/scroll-down-normal.png);
+}
+
+QToolButton::menu-arrow:open {
+    top: 1px; left: 1px; /* shift it a bit */
+}

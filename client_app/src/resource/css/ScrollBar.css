@@ -1,0 +1,78 @@
+QScrollBar:horizontal {
+    border: 1px solid #DBDBDB;
+    min-height:  16px;
+    max-height:  16px;
+    padding: 0px 18px 0 18px;
+}
+QScrollBar::handle:horizontal {
+    border-image: url(:/styles/styles/ScrollBar/scroll-hor-handle-normal.png);
+    min-height: 10px;
+    min-width: 20px;
+    margin: 3px 0 3px 0;
+}
+QScrollBar::add-line:horizontal {
+    border:none;
+    width: 18px;
+    subcontrol-position: right;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:horizontal {
+    border:none;
+    width: 18px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+}
+QScrollBar:left-arrow:horizonta {
+    background-image: url(:/styles/styles/ScrollBar/scroll-left-normal.png);
+}
+ QScrollBar::right-arrow:horizontal {
+    background-image: url(:/styles/styles/ScrollBar/scroll-right-normal.png);
+}
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: none;
+}
+
+
+QScrollBar:vertical {
+    border: 1px solid #DBDBDB;
+    min-width:  16px;
+    max-width:  16px;
+    padding: 18px 0 18px 0;
+}
+QScrollBar::handle:vertical {
+    border-image: url(:/styles/styles/ScrollBar/scroll-ver-handle-normal.png);
+    min-height: 20px;
+    min-width: 10px;
+    margin: 0 3px 0 3px;
+}
+QScrollBar::handle:vertical:hover {
+    border-image: url(:/styles/styles/ScrollBar/scroll-ver-handle-hover.png);
+}
+QScrollBar::handle:vertical:pressed {
+    border-image: url(:/styles/styles/ScrollBar/scroll-ver-handle-down.png);
+}
+QScrollBar::handle:vertical:disabled {
+    border-image: url(:/styles/styles/ScrollBar/scroll-ver-handle-disable.png);
+}
+QScrollBar::add-line:vertical {
+    border:none;
+    height: 18px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+QScrollBar::sub-line:vertical {
+    border:none;
+    height: 18px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+QScrollBar:up-arrow:vertical {
+    background-image: url(:/styles/styles/ScrollBar/scroll-up-normal.png);
+}
+ QScrollBar::down-arrow:vertical {
+    background-image: url(:/styles/styles/ScrollBar/scroll-down-normal.png);
+}
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}

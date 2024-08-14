@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TextMessageDialog</class>
+ <widget class="QDialog" name="TextMessageDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>352</width>
+    <height>275</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Chat window</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="margin">
+    <number>9</number>
+   </property>
+   <item>
+    <widget class="QTextEdit" name="historyTextEdit">
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="msgLabel">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="GPlainTextEdit" name="inputTextEdit">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>50</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="sendButton">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	color:#ffffff;
+	font: 13pt bold;
+    border-image: url(:/styles/styles/Button/btn-send-normal.png);
+    min-height:47px;
+    min-width:70px;
+}
+QPushButton:selected {
+    border-image: url(:/styles/styles/Button/btn-send-down.png);
+}
+QPushButton:hover {
+    border-image: url(:/styles/styles/Button/btn-send-hover.png);
+}
+QPushButton:disabled {
+    border-image: url(:/styles/styles/Button/btn-send-disabled.png);
+}</string>
+       </property>
+       <property name="text">
+        <string>Send</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>GPlainTextEdit</class>
+   <extends>QPlainTextEdit</extends>
+   <header>gplaintextedit.h</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>inputTextEdit</tabstop>
+  <tabstop>sendButton</tabstop>
+  <tabstop>historyTextEdit</tabstop>
+ </tabstops>
+ <resources>
+  <include location="../../resource/clientApp.qrc"/>
+ </resources>
+ <connections/>
+</ui>

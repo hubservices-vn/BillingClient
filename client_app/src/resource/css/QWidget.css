@@ -1,0 +1,4 @@
+/*set font for all UI elements*/
+QWidget {
+    font-family: "Arial Unicode MS";
+}

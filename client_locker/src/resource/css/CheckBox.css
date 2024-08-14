@@ -1,0 +1,42 @@
+QCheckBox {
+    spacing: 5px;
+    color:#333333; /*text color*/
+    font-size:11px; /*text font*/
+}
+
+QCheckBox::indicator {
+    width: 16px;
+    height: 16px;
+}
+
+QCheckBox::indicator:unchecked:disabled {
+    image: url(:/styles/styles/CheckBox/checkbox-disabled.png);
+}
+QCheckBox::indicator:unchecked {
+    image: url(:/styles/styles/CheckBox/checkbox-normal.png);
+}
+QCheckBox::indicator:unchecked:hover {
+    image: url(:/styles/styles/CheckBox/checkbox-hover.png);
+}
+QCheckBox::indicator:unchecked:pressed {
+    image: url(:/styles/styles/CheckBox/checkbox-down.png);
+}
+
+
+QCheckBox::indicator:checked:disabled {
+    image: url(:/styles/styles/CheckBox/checkbox-checked-disabled.png);
+}
+QCheckBox::indicator:checked {
+    image: url(:/styles/styles/CheckBox/checkbox-checked-normal.png);
+}
+QCheckBox::indicator:checked:hover {
+    image: url(:/styles/styles/CheckBox/checkbox-checked-hover.png);
+}
+QCheckBox::indicator:checked:pressed {
+    image: url(:/styles/styles/CheckBox/checkbox-checked-down.png);
+}
+
+QCheckBox::indicator:indeterminate:hover {
+}
+QCheckBox::indicator:indeterminate:pressed {
+}

@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\client_app",
+    "\\client_app\\dep",
+    "\\client_app\\src",
+    "\\client_app\\src\\Backup",
+    "\\client_app\\src\\CommandProc",
+    "\\client_app\\src\\CommandSender",
+    "\\client_app\\src\\resource",
+    "\\client_app\\src\\resource\\tr",
+    "\\client_app\\src\\resource\\tr\\clientApp"
+  ],
+  "SelectedNode": "\\client_app\\src\\main.cpp",
+  "PreviewInSolutionExplorer": false
+}

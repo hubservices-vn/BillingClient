@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gbClientService", "gbClientService.vcproj", "{149581EC-2813-3E4A-A0C2-4864010936C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{149581EC-2813-3E4A-A0C2-4864010936C1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{149581EC-2813-3E4A-A0C2-4864010936C1}.Debug|Win32.Build.0 = Debug|Win32
+		{149581EC-2813-3E4A-A0C2-4864010936C1}.Release|Win32.ActiveCfg = Release|Win32
+		{149581EC-2813-3E4A-A0C2-4864010936C1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
